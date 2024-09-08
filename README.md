@@ -72,5 +72,14 @@ VOICEVOX ソフトのインストール
 ソフト起動中に閲覧できるドキュメントページ
 - http://localhost:50021/docs
 
+著者による書籍紹介記事
+- https://note.com/saldra/n/nc5e09f822f1b
+
+## Book information
+「AITuberを作ってみたら生成AIプログラミングがよくわかった件」
+
+著者：阿部 由延 ([@sald_ra](https://x.com/sald_ra)) 氏<br>
+出版社：日経BP ([公式販売サイト](https://bookplus.nikkei.com/atcl/catalog/23/10/31/01079/))
+
 ## LICENCE
 Gemini-VOICEVOX-for-AITuber is under [MIT license](/LICENSE).
