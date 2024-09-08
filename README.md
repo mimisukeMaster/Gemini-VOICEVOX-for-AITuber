@@ -1,0 +1,2 @@
+# Gemini-VOICEVOX-for-AITuber
+ 「AITuberを作ってみたら生成AIiプログラミングがよくわかった件」にて呼ぶAPIをOpenAPIからGeminiAPIに変更したプログラム
