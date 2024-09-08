@@ -6,12 +6,12 @@
 ## Requirements
 以下のパッケージを`pip`でインストールしてください。
  ```cmd
-google-generativeai
-python-dotenv
-sounddevice
-soundfile
-numpy
-requests
+google-generativeai==0.7.2
+python-dotenv==1.0.1
+sounddevice==0.5.0
+soundfile==0.12.1
+numpy==2.1.0
+requests==2.32.3
 ```
 ## Directory
 ```
