@@ -1,7 +1,7 @@
 # Gemini-VOICEVOX-for-AITuber
  書籍「AITuberを作ってみたら生成AIプログラミングがよくわかった件」の中で紹介されている、LLMのAPIを使った実装部分を元に、OpenAI APIの代わりにGeminiAPIを使用するよう変更したものです。
 
- OpenAPI が無料で使えるプランがないため、十分な無料枠を提供しているGemini APIに変更しました。
+ OpenAPI には無料で使えるプランがないため、十分な無料枠を提供しているGemini APIに変更しました。
 
 ## Requirements
 以下のパッケージを`pip`でインストールしてください。
@@ -51,7 +51,7 @@ play_sound = PlaySound("Speaker")
 ```
 例えば、以下のような場合
 ```log
-0 Microsoft サウンド マッパー - Input, MME (2 in, 0 out)
+   0 Microsoft サウンド マッパー - Input, MME (2 in, 0 out)
 >  1 Microphone Array (AMD Audio Dev, MME (2 in, 0 out)
    2 Microsoft サウンド マッパー - Output, MME (0 in, 2 out)
    3 スピーカー (Realtek(R) Audio), MME (0 in, 2 out)
@@ -63,7 +63,8 @@ play_sound = PlaySound("Speaker")
 **必ずVOICEVOXソフトを起動してから**、[gemini_voicevox](/gemini_voicevox.py)を実行してください。
 
 ## Customize
-[voicevox_adapter.py](/voicevox_adapter.py)にて、`speaker_id`を変更することで喋らせる声を変更できます。
+[gemini_voicevox](/gemini_voicevox.py)の`prompt`で入力文を、
+[voicevox_adapter.py](/voicevox_adapter.py)の`speaker_id`にて喋らせる声を変更できます。
 
 ## Reference
 VOICEVOX ソフトのインストール
